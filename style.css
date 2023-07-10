@@ -166,3 +166,33 @@ body{
     height: 350px;
     margin-right: 15px;
 }
+
+/* Latest Deal Section Styling Start */
+.latestDeal-container{
+    margin: 100px 334px 100px 317px;
+    text-align: center;
+    background-image: url('./Assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latestDeal-form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.latestDeal-form > input[type="email"]{
+    padding: 20px 400px 20px 20px ;
+    border: none;
+    text-align: left;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 10px;
+
+}
+.latestDeal-form > input[type="submit"]{
+    padding: 15px 25px 15px 25px;
+}
