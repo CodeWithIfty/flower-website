@@ -196,3 +196,44 @@ body{
 .latestDeal-form > input[type="submit"]{
     padding: 15px 25px 15px 25px;
 }
+
+/* Footer Section Styling Start */
+#footerSection{
+    display: flex;
+    height: 300px;
+    background: #111010;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    text-align: center;
+}
+.footer-logo {
+    color: white;
+}
+.footer-logo > span{
+    color: #E55473;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.footer > p{
+    width: 600px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.copy-text{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
